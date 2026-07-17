@@ -1,0 +1,15 @@
+{
+  "name": "mpletech-tailwind",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "start": "npx serve dist -s"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.8",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}

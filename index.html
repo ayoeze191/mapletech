@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind App</title>
+    <!-- Tailwind Play CDN for quick preview (keeps local build for production) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Top bar -->
+     <div class="bg-[#061631]">
+    <div class="py-[12.5px] px-[] flex items-center  justify-between max-w-5xl mx-auto">
+        <h3 class="text-[#B7C6E4]">Protecting the Queen of American Lakes since 1885</h3>
+        <div class="flex text-[#B7C6E4] justify-center gap-[24px] ">
+            <h3>Contact</h3>
+            <h3>Report a Concern</h3>
+            <h3>News</h3>
+            <h3 class="text-[#FFD98A]">Donate</h3>
+        </div>
+    </div>
+    </div>
+    <!-- Header -->
+     <div class="bg-[#E6ECF4]">
+        <div class="max-w-5xl flex items-center justify-between mx-auto  py-[18px]">
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="">
+            </div>
+            <div class="text-[#0B2A5B]">
+                <ul class="flex gap-[32px] text-[15px] font-medium ">
+                    <li>About</li>
+                    <li>Why Protect</li>
+                    <li>Fish & Wildlife</li>
+                    <li>Podcast</li>
+                    <li>Resources</li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-[18px]">
+                <div>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.16671 15C12.3884 15 15 12.3883 15 9.16667C15 5.94501 12.3884 3.33334 9.16671 3.33334C5.94505 3.33334 3.33337 5.94501 3.33337 9.16667C3.33337 12.3883 5.94505 15 9.16671 15Z" stroke="#0B2A5B" stroke-width="1.66667"/>
+<path d="M17.5 17.5L14.1666 14.1667" stroke="#0B2A5B" stroke-width="1.66667"/>
+</svg>
+
+                </div>
+                <div>
+                    <button class="bg-[#F0A62C] text-[#061631] font-semibold text-[15px] py-[13px] px-[28px] rounded-[999px]">
+Become a Member
+                    </button>
+                </div>
+            </div>
+        </div>
+     </div>
+    <div>
+
+    </div>
+
+        <!-- Hero -->
+         <section class="relative w-full  overflow-hidden mb-0">
+             <div class="absolute top-0   flex flex-col justify-center items-center ">
+              <img src="assets/Hero.png" class="" />
+             </div>
+
+            <div class="flex flex-col max-w-5xl mx-auto  py-[200px]">
+                <div class="relative z-10 flex flex-col lg:flex-row items-start ">
+                    <div class=" flex  flex-col text-white">
+                        <div class="w-fit mb-[25px] flex items-center gap-[9px] bg-white/10 text-sm font-semibold text-white/90 rounded-full border-[1px] border-[#FFFFFF1A] px-4 py-2  ">
+                            <span class="w-2 h-2 rounded-full bg-[#57C9C0] text-[12.5px]"></span>
+                            New: 2026 Water Quality Report is live
+                        </div>
+                        <div class="mt-0 flex flex-col gap-[28px]">
+                        <h1 class=" sm:text-6xl lg:text-7xl  leading-tight text-white tracking-[-2%] text-[62px] font-semibold ">Keep Lake George Clear</h1>
+                        <p class=" max-w-[480px] text-lg text-white/80 text-[19px]">Together, we are the voice for Lake George — protecting the clean, clear water that makes it the Queen of American Lakes for generations to come.</p>
+
+                        <div class=" flex flex-wrap gap-4 -mt-3">
+                            <a href="#" class="inline-flex items-center gap-3 bg-[#F0A62C] text-[#061631] font-semibold px-6 py-3 rounded-full shadow">Become a Member</a>
+                            <a href="#" class="inline-flex items-center gap-3 border border-white/30 text-white/90 px-6 py-3 rounded-full">Explore Our Work</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- <aside class="w-full lg:w-80 relative">
+                        <div class="bg-white/6 backdrop-blur-md p-6 rounded-2xl text-white border border-white/10 shadow-lg lg:absolute lg:top-28 lg:right-0">
+                            <div class="text-3xl font-bold">32mi</div>
+                            <div class="text-sm text-white/70 mt-1">of shoreline protected</div>
+                            <hr class="my-4 border-white/10" />
+                            <div class="text-3xl font-bold">141</div>
+                            <div class="text-sm text-white/70 mt-1">years defending the lake</div>
+                            <hr class="my-4 border-white/10" />
+                            <div class="text-3xl font-bold">#1</div>
+                            <div class="text-sm text-white/70 mt-1">smartest lake in the world</div>
+                        </div>
+                    </aside> -->
+                </div>
+                <div class="ml-auto text-2xl text-red-500 relative">
+                    32
+                </div>
+            </div>
+         </section>
+     <!-- smallhero -->
+
+         <section class="bg-[#061631] mt-0">
+            <div class="max-w-5xl">
+<p>Keep Lake George clear</p>
+
+<div><img src="./assets/star.svg" /></div>
+<p>Science</p>
+<p>Advocacy</p>
+<p>Community</p>
+<p>Clean eater</p>
+            </div>
+         </section>
+
+         <!--  -->
+</body>
+</html>
