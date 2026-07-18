@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="./dist/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body
+style="font-family: 'inter';"
+>
     
     <!-- Top bar -->
      <div class="bg-[#061631]">
@@ -61,20 +66,25 @@ Become a Member
     </div>
 
         <!-- Hero -->
-         <section class="relative w-full  overflow-hidden mb-0">
-             <div class="absolute top-0   flex flex-col justify-center items-center ">
-              <img src="assets/Hero.png" class="" />
+         <section class="relative w-full min-h-screen  overflow-hidden mb-0">
+             <div class="absolute top-0 w-full  flex flex-col justify-center items-center ">
+              <img src="assets/Hero.png" class="w-full" />
              </div>
 
+
             <div class="flex flex-col max-w-5xl mx-auto  py-[200px]">
-                <div class="relative z-10 flex flex-col lg:flex-row items-start ">
+                
+                <div class="relative z-10 flex flex-col  items-start  ">
+                    
                     <div class=" flex  flex-col text-white">
                         <div class="w-fit mb-[25px] flex items-center gap-[9px] bg-white/10 text-sm font-semibold text-white/90 rounded-full border-[1px] border-[#FFFFFF1A] px-4 py-2  ">
                             <span class="w-2 h-2 rounded-full bg-[#57C9C0] text-[12.5px]"></span>
                             New: 2026 Water Quality Report is live
                         </div>
                         <div class="mt-0 flex flex-col gap-[28px]">
-                        <h1 class=" sm:text-6xl lg:text-7xl  leading-tight text-white tracking-[-2%] text-[62px] font-semibold ">Keep Lake George Clear</h1>
+                        <h1 class=" sm:text-6xl lg:text-7xl  leading-tight text-white tracking-[-2%] text-[62px] font-semibold "
+                        style=" font-family: 'Fraunces'"
+                        >Keep Lake George Clear</h1>
                         <p class=" max-w-[480px] text-lg text-white/80 text-[19px]">Together, we are the voice for Lake George — protecting the clean, clear water that makes it the Queen of American Lakes for generations to come.</p>
 
                         <div class=" flex flex-wrap gap-4 -mt-3">
@@ -84,38 +94,521 @@ Become a Member
                         </div>
                     </div>
 
-                    <!-- <aside class="w-full lg:w-80 relative">
-                        <div class="bg-white/6 backdrop-blur-md p-6 rounded-2xl text-white border border-white/10 shadow-lg lg:absolute lg:top-28 lg:right-0">
-                            <div class="text-3xl font-bold">32mi</div>
-                            <div class="text-sm text-white/70 mt-1">of shoreline protected</div>
-                            <hr class="my-4 border-white/10" />
-                            <div class="text-3xl font-bold">141</div>
-                            <div class="text-sm text-white/70 mt-1">years defending the lake</div>
-                            <hr class="my-4 border-white/10" />
-                            <div class="text-3xl font-bold">#1</div>
-                            <div class="text-sm text-white/70 mt-1">smartest lake in the world</div>
-                        </div>
-                    </aside> -->
+                    <aside class="w-fit relative ml-auto ">
+                        <img src="./assets/herobox.svg" class=""/>
+                    </aside>
                 </div>
-                <div class="ml-auto text-2xl text-red-500 relative">
-                    32
-                </div>
-            </div>
-         </section>
-     <!-- smallhero -->
-
-         <section class="bg-[#061631] mt-0">
-            <div class="max-w-5xl">
-<p>Keep Lake George clear</p>
-
-<div><img src="./assets/star.svg" /></div>
-<p>Science</p>
-<p>Advocacy</p>
-<p>Community</p>
-<p>Clean eater</p>
+              
             </div>
          </section>
 
-         <!--  -->
+
+       <!-- Section 1: Hero Navigation -->
+<section class="relative bg-[#061631] text-white py-4 px-4 md:px-8">
+    <div class="max-w-6xl mx-auto"                         style=" font-family: 'Fraunces'"
+>
+        <!-- Navigation Links -->
+        <nav class="flex flex-wrap justify-between  md:gap-11 italic text-sm md:text-base uppercase tracking-wider font-semibold ">
+            <a href="#" class="hover:text-blue-200 transition">Keep Lake George clear</a>
+            <img src="assets/star.svg" />
+            <a href="#" class="hover:text-blue-200 transition">Science</a>
+            <img src="assets/star.svg" />
+            <a href="#" class="hover:text-blue-200 transition">Advocacy</a>
+            <img src="assets/star.svg" />
+            <a href="#" class="hover:text-blue-200 transition">Community</a>
+            <img src="assets/star.svg" />
+            <a href="#" class="hover:text-blue-200 transition">Clean water for all</a>
+        </nav>
+        
+        <!-- Hero Content (Placeholder for main hero image/text) -->
+    
+    </div>
+</section>
+
+
+
+<!-- Section 2: Our Mission -->
+<section class=" py-[112px] px-4 md:px-8  " style="background: linear-gradient(155.22deg, #2278E1 12.03%, #144F9E 87.22%);
+">
+    <div class="max-w-5xl mx-auto text-center">
+         
+        <div class="flex gap-[10px] items-center justify-center mb-[18px]">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#9CC0F2] tracking-widest uppercase text-[11.5px]">Our Mission</span>
+        </div>
+        <h2 class=" md:text-[52px] font-semibold leading-[100%]  text-[#FFFFFF]  mb-6"
+                        style=" font-family: 'Fraunces'"
+        
+        >Together, we are the voice for Lake George</h2>
+        <p class="text-lg md:text-[18px] leading-[162%] text-[#E6F0FD] max-w-[600px] mx-auto mb-12">
+            We combine science, advocacy, and on-the-water action to keep the lake clean and clear — and it starts with people like you.
+        </p>
+        
+        <!-- Three Pillars -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+            <div class="bg-[#FFFFFF1A] px-6 py-8 rounded-[20px] border-[#FFFFFF33] border-[1px]">
+                <div class="flex items-center justify-center bg-[#FFFFFFF2] rounded-[14px] w-[50px] h-[50px] mb-[24px]">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5 3.125C12.5 3.125 19.7917 10.4167 19.7917 15.625C19.7917 16.5826 19.6031 17.5307 19.2366 18.4154C18.8702 19.3001 18.3331 20.1039 17.656 20.781C16.9789 21.4581 16.1751 21.9952 15.2904 22.3616C14.4057 22.7281 13.4576 22.9167 12.5 22.9167C11.5425 22.9167 10.5943 22.7281 9.70961 22.3616C8.82494 21.9952 8.02112 21.4581 7.34402 20.781C6.66693 20.1039 6.12983 19.3001 5.76339 18.4154C5.39695 17.5307 5.20834 16.5826 5.20834 15.625C5.20834 10.4167 12.5 3.125 12.5 3.125Z" stroke="#1E6FD9" stroke-width="1.875"/>
+</svg>
+
+                </div>
+                <h3 class="text-[18px] leading-[100%] font-bold text-[#FFFFFF] mb-2">Advocacy & Policy</h3>
+                <p class="text-[#DBE7F9]">Standing up for the lake in the rooms where decisions get made.</p>
+            </div>
+            <div class="bg-[#FFFFFF1A] px-6 py-8 rounded-[20px] border-[#FFFFFF33] border-[1px]">
+                <div class="bg-[#FFFFFFF2] flex justify-center items-center rounded-[14px] w-[50px] h-[50px] mb-[24px]">
+                    <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.39523 0.9375H11.6452M6.4369 0.9375V6.14583L1.22857 15.5208C1.02847 15.8585 0.927825 16.2458 0.938233 16.6382C0.948641 17.0305 1.06968 17.412 1.2874 17.7386C1.50511 18.0651 1.81066 18.3236 2.16884 18.4841C2.52701 18.6446 2.92325 18.7007 3.3119 18.6458H13.7286C14.1172 18.7007 14.5135 18.6446 14.8716 18.4841C15.2298 18.3236 15.5353 18.0651 15.7531 17.7386C15.9708 17.412 16.0918 17.0305 16.1022 16.6382C16.1126 16.2458 16.012 15.8585 15.8119 15.5208L10.6036 6.14583V0.9375" stroke="#1E6FD9" stroke-width="1.875"/>
+</svg>
+
+                </div>
+                <h3 class="text-[18px] leading-[100%] font-bold text-[#FFFFFF] mb-2">Water Science</h3>
+                <p class="text-[#DBE7F9]">Real-time monitoring from the world's smartest lake.</p>
+            </div>
+            
+
+             <div class="bg-[#FFFFFF1A] px-6 py-8 rounded-[20px] border-[#FFFFFF33] border-[1px]">
+                <div class="bg-[#FFFFFFF2] flex items-center justify-center rounded-[14px] w-[50px] h-[50px] mb-[24px]">
+                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.6366 5.65744C17.6366 10.8658 9.30327 16.0741 9.30327 16.0741C9.30327 16.0741 0.969942 10.8658 0.969942 5.65744C0.831808 4.55237 1.13832 3.43769 1.82205 2.55862C2.50577 1.67954 3.51071 1.10808 4.61578 0.969942C5.72084 0.831808 6.83552 1.13832 7.7146 1.82205C8.59368 2.50577 9.16514 3.51071 9.30327 4.61578C9.44141 3.51071 10.0129 2.50577 10.8919 1.82205C11.771 1.13832 12.8857 0.831808 13.9908 0.969942C15.0958 1.10808 16.1008 1.67954 16.7845 2.55862C17.4682 3.43769 17.7747 4.55237 17.6366 5.65744Z" stroke="#1E6FD9" stroke-width="1.875"/>
+</svg>
+
+                </div>
+                <h3 class="text-[18px] leading-[100%] font-bold text-[#FFFFFF] mb-2">Community Action</h3>
+                <p class="text-[#DBE7F9]">Programs that turn everyday residents into lake protectors..</p>
+            </div>
+          
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Section 3: Latest on the Lake -->
+<section class="py-16  bg-gray-50">
+    <div class="max-w-5xl mx-auto">
+        <div class="flex flex-col  justify-between items-start  mb-8">
+            <div class="w-full flex  justify-between items-center mb-[18px]">
+                <div class="flex gap-[10px] items-center justify-center ">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#9CC0F2] tracking-widest uppercase text-[11.5px]">Latest on the Lake</span>
+        </div>
+            <a href="#" class="text-blue-600 font-semibold hover:underline ">View all articles →</a>
+
+              
+            </div>
+              <h2 class="text-3xl md:text-[52px] font-bold text-[#0B2A5B]"
+                        style=" font-family: 'Fraunces'"
+              
+              >News, stories & updates</h2>
+        </div>
+        
+        <!-- News Items -->
+        <div class="space-y-6 flex gap-8">
+            <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story1.svg" class="rounded-t-xl h-[210px ] w-[346px]"/>
+                <span class="absolute bg-white py-[5px] px-[11px] rounded-[8px] top-4 left-4 text-[11.5px]">May 28, 2026 — </span>
+                </div>
+                <div class="px-[24px]">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Water Quality</span></div>
+                <h3 class="text-xl font-bold text-gray-900"
+                        style=" font-family: 'Fraunces'"
+                
+                >Road salt runoff and what it means for clarity</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">How winter road treatment threatens the lake — and the smarter alternatives we're championing.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+            </article>
+            
+          <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story2.svg" class="rounded-t-xl h-[210px] w-[346px]"/>
+                <span class="absolute bg-white py-[5px] px-[11px] rounded-[8px] top-4 left-4 text-[11.5px]">May 28, 2026 — </span>
+                </div>
+                <div class="px-[24px]">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Field Notes</span></div>
+                <h3 class="text-xl font-bold text-gray-900"
+                        style=" font-family: 'Fraunces'"
+                
+                >The Jefferson Project sensors, explained</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">Inside the network of underwater sensors making Lake George the smartest lake in the world.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+            </article>
+            
+           <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story1.svg" class="rounded-t-xl"/>
+                <span class="absolute bg-white py-[5px] px-[11px] rounded-[8px] top-4 left-4 text-[11.5px]">May 28, 2026 — </span>
+                </div>
+                <div class="px-[24px]">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Water Quality</span></div>
+                <h3
+                        style=" font-family: 'Fraunces'"
+                
+                class="text-xl font-bold text-gray-900">Road salt runoff and what it means for clarity</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">How winter road treatment threatens the lake — and the smarter alternatives we're championing.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section 4: Impact Stats -->
+<section class="py-16 px-4 md:px-8 bg-blue-900 text-white">
+    <div class="max-w-5xl mx-auto text-center">
+          <div class="flex gap-[10px] items-center justify-center ">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#ffffff] tracking-widest uppercase text-[11.5px]">From Science to Solutions</span>
+            </div>
+        <h2 class="text-[52px] font-semibold  my-4"
+                        style=" font-family: 'Fraunces'"
+        
+        >Measurable impact, every year</h2>
+        <p class="text-lg  max-w-2xl mx-auto mb-12  text-[17.spx] font-inter text-[#C3D3EE]">
+            Your support powers the research, monitoring, and action that keeps Lake George clear.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-[24px] max-w-[1104px]">
+            <div class="py-[40px] rounded-[24px] px-[47px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+;
+">                  <div class="mx-auto w-fit p-[15.5px]  rounded-[17px] mb-[20px]" style="background: linear-gradient(135deg, #57C9C0 14.29%, #1E6FD9 85.71%);
+">
+    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.5 3.625C14.5 3.625 22.9584 12.0833 22.9584 18.125C22.9584 19.2358 22.7396 20.3357 22.3145 21.3619C21.8894 22.3881 21.2664 23.3205 20.481 24.1059C19.6955 24.8914 18.7631 25.5144 17.7369 25.9395C16.7107 26.3646 15.6108 26.5833 14.5 26.5833C13.3893 26.5833 12.2894 26.3646 11.2632 25.9395C10.2369 25.5144 9.3045 24.8914 8.51908 24.1059C7.73365 23.3205 7.11061 22.3881 6.68554 21.3619C6.26047 20.3357 6.04169 19.2358 6.04169 18.125C6.04169 12.0833 14.5 3.625 14.5 3.625Z" stroke="white" stroke-width="2.29583"/>
+</svg>
+
+</div>
+                <div class="text-5xl md:text-6xl font-bold text-white" 
+                        style=" font-family: 'Fraunces'"
+                
+                >20M</div>
+                <p class=" text-[14px] leading-[100%] uppercase tracking-wider mt-1 text-[#C3D3EE]">Gallons of clean water protected daily</p>
+            </div>
+         <div class="py-[40px] rounded-[24px] px-[47px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+;
+">                  <div class="mx-auto w-fit p-[15.5px]  rounded-[17px] mb-[20px]" style="background: linear-gradient(135deg, #57C9C0 14.29%, #1E6FD9 85.71%);
+">
+    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.5 3.625C14.5 3.625 22.9584 12.0833 22.9584 18.125C22.9584 19.2358 22.7396 20.3357 22.3145 21.3619C21.8894 22.3881 21.2664 23.3205 20.481 24.1059C19.6955 24.8914 18.7631 25.5144 17.7369 25.9395C16.7107 26.3646 15.6108 26.5833 14.5 26.5833C13.3893 26.5833 12.2894 26.3646 11.2632 25.9395C10.2369 25.5144 9.3045 24.8914 8.51908 24.1059C7.73365 23.3205 7.11061 22.3881 6.68554 21.3619C6.26047 20.3357 6.04169 19.2358 6.04169 18.125C6.04169 12.0833 14.5 3.625 14.5 3.625Z" stroke="white" stroke-width="2.29583"/>
+</svg>
+
+</div>
+                <div class="text-5xl md:text-6xl font-bold text-white"
+                        style=" font-family: 'Fraunces'"
+                
+                >20M</div>
+                <p class=" text-[14px] leading-[100%] uppercase tracking-wider mt-1 text-[#C3D3EE]">Gallons of clean water protected daily</p>
+            </div>
+            <div class="py-[40px] rounded-[24px] px-[47px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+;
+">                  <div class="mx-auto w-fit p-[15.5px]  rounded-[17px] mb-[20px]" style="background: linear-gradient(135deg, #57C9C0 14.29%, #1E6FD9 85.71%);
+">
+    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.5 3.625C14.5 3.625 22.9584 12.0833 22.9584 18.125C22.9584 19.2358 22.7396 20.3357 22.3145 21.3619C21.8894 22.3881 21.2664 23.3205 20.481 24.1059C19.6955 24.8914 18.7631 25.5144 17.7369 25.9395C16.7107 26.3646 15.6108 26.5833 14.5 26.5833C13.3893 26.5833 12.2894 26.3646 11.2632 25.9395C10.2369 25.5144 9.3045 24.8914 8.51908 24.1059C7.73365 23.3205 7.11061 22.3881 6.68554 21.3619C6.26047 20.3357 6.04169 19.2358 6.04169 18.125C6.04169 12.0833 14.5 3.625 14.5 3.625Z" stroke="white" stroke-width="2.29583"/>
+</svg>
+
+</div>
+                <div class="text-5xl md:text-6xl font-bold text-white"
+                        style=" font-family: 'Fraunces'"
+                
+                >20M</div>
+                <p class=" text-[14px] leading-[100%] uppercase tracking-wider mt-1 text-[#C3D3EE]">Gallons of clean water protected daily</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Section 5: Lake Worth Protecting -->
+<section class="py-16 px-4 md:px-8 bg-gray-900 text-white">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-sm font-semibold text-blue-400 tracking-widest uppercase">A Lake Worth Protecting</span>
+                <h2 class="text-3xl md:text-5xl font-bold mt-2 mb-6">Beneath the surface</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <div class="text-3xl font-bold text-white">196 ft</div>
+                        <p class="text-gray-400 text-sm">Deepest point</p>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-white">40+</div>
+                        <p class="text-gray-400 text-sm">Islands across 32 miles</p>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-white">Native</div>
+                        <p class="text-gray-400 text-sm">Brook trout & lake habitat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-blue-800 h-64 rounded-lg flex items-center justify-center text-blue-200">
+                [Image: Lake George scenic view]
+            </div>
+        </div>
+    </div>
+</section>  
+
+
+
+
+<!-- Section 6: Threats -->
+<section class="py-16 px-4 md:px-8 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <div class="flex gap-[10px] items-center justify-center flex-col ">
+        <div class="flex gap-4 items-center">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#1E6FD9] tracking-widest uppercase text-[11.5px]">PROTECTING LAKE GEORGE STARTS HERE</span>
+            </div>
+        <h2 class="text-[52px] font-semibold   text-[#0B2A5B]"
+                        style=" font-family: 'Fraunces'"
+        
+        >The threats we're up against</h2>
+        <p class="text-lg  max-w-2xl mx-auto mb-12  text-[17.5px] font-inter text-[#4E5D75] ">
+            Three of the biggest challenges facing the lake — and how we're fighting each one.
+        </p>
+    </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story1.svg" class="rounded-t-xl h-[210px ] w-[346px]"/>
+                </div>
+                <div class="px-4">
+                <div class="bg-white w-fit relative rounded-[15px]  -mt-7 p-[13px]"
+                style="box-shadow: 0px 14px 40px 0px #0C1A331A;
+"
+                >
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5L9 12.375L13.5 22.5M15.75 22.5L19.125 10.125L22.5 22.5" stroke="#1E6FD9" stroke-width="2.025"/>
+<path d="M6.75 12.375H11.25M16.875 10.125H21.375" stroke="#1E6FD9" stroke-width="2.025"/>
+</svg>
+
+                </div>
+                <div class="">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Water Quality</span></div>
+                <h3 class="text-xl font-bold text-gray-900">Road salt runoff and what it means for clarity</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">How winter road treatment threatens the lake — and the smarter alternatives we're championing.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+                </div>
+            </article>
+
+             <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story1.svg" class="rounded-t-xl h-[210px ] w-[346px]"/>
+                </div>
+                <div class="px-4">
+                <div class="bg-white w-fit relative rounded-[15px]  -mt-7 p-[13px]"
+                style="box-shadow: 0px 14px 40px 0px #0C1A331A;
+"
+                >
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5L9 12.375L13.5 22.5M15.75 22.5L19.125 10.125L22.5 22.5" stroke="#1E6FD9" stroke-width="2.025"/>
+<path d="M6.75 12.375H11.25M16.875 10.125H21.375" stroke="#1E6FD9" stroke-width="2.025"/>
+</svg>
+
+                </div>
+                <div class="">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Water Quality</span></div>
+                <h3 class="text-xl font-bold text-gray-900">Road salt runoff and what it means for clarity</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">How winter road treatment threatens the lake — and the smarter alternatives we're championing.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+                </div>
+            </article>
+
+
+             <article class="bg-white  rounded-xl shadow-sm ">
+                <div class="flex relative ">
+                <img src="./assets/story1.svg" class="rounded-t-xl h-[210px ] w-[346px]"/>
+                </div>
+                <div class="px-4">
+                <div class="bg-white w-fit relative rounded-[15px]  -mt-7 p-[13px]"
+                style="box-shadow: 0px 14px 40px 0px #0C1A331A;
+"
+                >
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 22.5L9 12.375L13.5 22.5M15.75 22.5L19.125 10.125L22.5 22.5" stroke="#1E6FD9" stroke-width="2.025"/>
+<path d="M6.75 12.375H11.25M16.875 10.125H21.375" stroke="#1E6FD9" stroke-width="2.025"/>
+</svg>
+
+                </div>
+                <div class="">
+                <div class="text-sm text-gray-500 mt-[24px] mb-4"> <span class=" bg-[#EDF4FB] py-[5px] px-[11px]  rounded-[8px]   text-[11.5px] ">Water Quality</span></div>
+                <h3 class="text-xl font-bold text-gray-900">Road salt runoff and what it means for clarity</h3>
+                <p class="text-gray-600 mt-1 mb-[18px]">How winter road treatment threatens the lake — and the smarter alternatives we're championing.</p>
+                <a href="#" class="inline-block pb-6 text-blue-600 font-semibold hover:underline">Read article →</a>
+                </div>
+                </div>
+            </article>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Section 7: Smartest Lake -->
+<section class="py-[112px] px-4 md:px-8 bg-blue-50">
+    <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[64px] items-center">
+            <div class="bg-blue-200 h-[448px] w-full rounded-[26px]  flex items-center justify-center text-blue-700">
+                <img src="./assets/word.svg" class="rounded-[30px]">
+            </div>
+            <div>
+                <div class="flex gap-4 items-center">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#1E6FD9] tracking-widest uppercase text-[11.5px]">EXPLORE UP CLOSE</span>
+            </div>
+                <h2 class="text-3xl md:text-[48px] leading-[100%] mt-[16px] font-bold   mb-4 text-[#0B2A5B]"
+                        style=" font-family: 'Fraunces'"
+                
+                >The world's smartest lake</h2>
+                <p class="leading-[162%] text-[16.5px] mb-4 text-[#4E5D75]">Lake George is monitored by one of the most advanced freshwater research platforms on Earth — a partnership turning data into real protection.</p>
+                <p class="text-gray-600 mb-6">From robotic sensors to predictive models, we translate science into the everyday actions that keep the water clear.</p>
+              
+                <a href="#" class="inline-block mt-6  text-[#FFFFFF] rounded-[999px] bg-[#1E6FD9] px-6 py-3  font-semibold hover:bg-blue-800 transition">See the Science →</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Section 8: Testimonial -->
+<section class="py-16 px-4 md:px-8 bg-[#0A2450]">
+    <div class="max-w-4xl mx-auto text-center">
+        <blockquote class="text-xl md:text-2xl text-[#F0A62C] italic mb-6">
+            "<br/><span class="text-white font-semibold text-[42px] leading-[128%]"
+                        style=" font-family: 'Fraunces'"
+            
+            >The LGA's strength has always been the people who care about this place — residents, visitors, businesses, and partners who know that clean water is not a guarantee. It's a shared responsibility."</span>
+        </blockquote>
+        <p class="font-bold text-gray-900">Margaret Ellison</p>
+        <p class="text-gray-500 text-sm">Lake Protector — Member since 2019</p>
+    </div>
+</section>
+
+
+
+<!-- Section 9: Membership -->
+<section class="py-16 px-4 md:px-8 bg-white text-blue-400">
+    <div class="max-w-6xl mx-auto text-center">
+        <span class="text-sm font-semibold text-blue-300 tracking-widest uppercase">Join Us</span>
+        <h2 class="text-3xl md:text-5xl font-bold mt-2 mb-4">Become a member.</h2>
+        <p class="text-lg text-blue-100 max-w-2xl mx-auto mb-2">Choose your membership. 100% to the lake.</p>
+        <p class="text-blue-200 mb-8">Every dollar goes toward keeping Lake George clear. Your membership directly funds the science, advocacy, and action that keeps the lake clean and clear.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div class="bg-white text-gray-900 p-6 rounded-lg">
+                <h3 class="text-2xl font-bold">$35</h3>
+                <p class="font-semibold">Individual</p>
+                <ul class="text-sm text-gray-600 mt-3 space-y-1">
+                    <li>✓ Support real-time water quality monitoring</li>
+                </ul>
+                <a href="#" class="block mt-4 bg-blue-700 text-white py-2 rounded-lg font-semibold hover:bg-blue-800 transition">Join & Protect</a>
+            </div>
+            <div class="bg-white text-gray-900 p-6 rounded-lg border-2 border-blue-500">
+                <h3 class="text-2xl font-bold">$75</h3>
+                <p class="font-semibold">Family</p>
+                <ul class="text-sm text-gray-600 mt-3 space-y-1">
+                    <li>✓ Fund advocacy that defends the lake in policy</li>
+                </ul>
+                <a href="#" class="block mt-4 bg-blue-700 text-white py-2 rounded-lg font-semibold hover:bg-blue-800 transition">Join & Protect</a>
+            </div>
+            <div class="bg-white text-gray-900 p-6 rounded-lg">
+                <h3 class="text-2xl font-bold">$150</h3>
+                <p class="font-semibold">Steward</p>
+                <ul class="text-sm text-gray-600 mt-3 space-y-1">
+                    <li>✓ Power volunteer and community programs</li>
+                </ul>
+                <a href="#" class="block mt-4 bg-blue-700 text-white py-2 rounded-lg font-semibold hover:bg-blue-800 transition">Join & Protect</a>
+            </div>
+        </div>
+        <p class="text-blue-200 text-sm mt-6">Secure checkout · Cancel anytime · Get member updates & the Stay Clear newsletter</p>
+    </div>
+</section>
+
+
+
+<!-- Section 10: Newsletter -->
+<section class="py-16 px-4 md:px-8  " style="background: linear-gradient(145.2deg, #134384 14.39%, #071F47 86.33%);
+">
+     <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[64px] items-center">
+           
+            <div>
+                <div class="flex gap-4 items-center">
+            <div class="w-[26px] h-[2px] bg-[#F0A62C]"></div>
+        <span class="font-bold text-[#1E6FD9] tracking-widest uppercase text-[11.5px]">STAY CLEAR</span>
+            </div>
+                <h2 class="text-3xl md:text-[48px] leading-[100%] mt-[16px] font-semibold   mb-4 text-[#FFFFFF]"
+                        style=" font-family: 'Fraunces'"
+                
+                >Get the latest from the lal</h2>
+                <p class="leading-[162%] text-[16.5px] mb-4 text-[#D3E0F5]">Join our newsletter for water quality updates, event invites, and simple ways to help protect Lake George</p>
+              
+                <a href="#" class="inline-block mt-6  text-[#FFFFFF] rounded-[999px] bg-[#1E6FD9] px-6 py-3  font-semibold hover:bg-blue-800 transition">See the Science →</a>
+            </div>
+
+             <div class="">
+                 <form class="bg-white p-6 border-solid border-[1px] border-[#FFFFFF33] rounded-lg shadow-sm " style="backdrop-filter: blur(10px); 
+
+                 backdrop-filter: blur(10px)
+
+; 
+">
+                    <span class="text-[#FFFFFF] text-[16px] font-semibold leading-[100%]">Subscribe for free</span>
+            <div class="mb-4">
+                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First name</label>
+                <input type="text" id="first-name" placeholder="Your first name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+                <input type="email" id="email" placeholder="you@email.com" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Subscribe</button>
+            <p class="text-xs text-gray-500 text-center mt-3">We respect your privacy. No spam, ever.</p>
+        </form>
+            </div>
+            
+        </div>
+    </div>
+    <!-- <div class="max-w-2xl mx-auto flex items-center w-full">
+        <div class="text-center mb-8">
+            <span class="text-sm font-semibold text-blue-600 tracking-widest uppercase">Subscribe for free</span>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Stay Clear</h2>
+            <p class="text-gray-600 mt-2">Get the latest from the lake. Join our newsletter for water quality updates, event invites, and simple ways to help protect Lake George.</p>
+            <p class="text-sm text-gray-500 mt-1">Monthly, not spammy. Unsubscribe anytime.</p>
+        </div>
+        
+        <form class="bg-white p-6 rounded-lg shadow-sm">
+            <div class="mb-4">
+                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First name</label>
+                <input type="text" id="first-name" placeholder="Your first name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+                <input type="email" id="email" placeholder="you@email.com" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Subscribe</button>
+            <p class="text-xs text-gray-500 text-center mt-3">We respect your privacy. No spam, ever.</p>
+        </form>
+    </div> -->
+</section>
+
 </body>
 </html>
